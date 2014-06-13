@@ -1,0 +1,342 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<%@ Page Language="VB"%>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Data.OleDb" %>
+<%@ Import Namespace="System.IO" %>
+<!--#include file="includes/functions.aspx"-->
+<html>
+<head>
+<title>UTEX The Culture Collection of Algae</title>
+<%
+Dim webroot, page, bgcolor, fgcolor
+webroot = "/utex"
+bgcolor="white"
+fgcolor="green"
+page = "UTEX Training Workshop"
+%>
+<LINK REL=STYLESHEET HREF="<%=webroot%>/includes/styleMain.css" TYPE="text/css">
+<script language="javascript" src="<%=webroot%>/javascripts/menu.js"></script>
+<STYLE TYPE="text/css">
+<!--
+.indented
+   {
+   padding-left: 10pt;
+   }
+.auto-style1 {
+	text-align: right;
+}
+.auto-style2 {
+	font-weight: bold;
+	text-align: left;
+}
+.auto-style3 {
+	font-weight: bold;
+	text-align: right;
+}
+-->
+</STYLE>
+<script src="javascripts/jquery-1.7.2.min.js"></script>
+<script src="javascripts/lightbox.js"></script>
+<link href="includes/lightbox.css" rel="stylesheet" />
+<script language="JavaScript" type="text/javascript">
+<!--
+if (document.getElementById) {
+document.writeln('<style type="text/css"><!--')
+document.writeln('.texter {display:none} @media print {.texter {display:block;}}')
+document.writeln('//--></style>') }
+
+function openClose(theID) {
+if (document.getElementById(theID).style.display == "block") { document.getElementById(theID).style.display = "none" }
+else { document.getElementById(theID).style.display = "block" } }
+// -->
+	</script>
+
+</head>
+
+<body>
+
+<table align="center" border ="0" cellspacing="0" cellpadding="0" width="960" height="100%" class="normal">
+
+<tr align="center" height=100>
+  <td colspan = 3>
+<!--#include virtual="includes/header.html"-->
+  </td>
+</tr>
+<tr valign="top">
+  <td width = 150 valign="TOP">
+<!--#include virtual="includes/collapsible-menu.html"--><br>
+
+  </td>
+  <td>
+  <img src="images/spacer.gif" height='0' width='10'> </td>
+  <td width = 810 colspan = 1>
+  <a href="images/march-workshop-1.jpg" rel="lightbox[ATP3]" title="From March 2014: UTEX Microalgal Training Workshop held on the University of Texas at Austin Campus in Austin, TX"><div style="width:254px;float:right;font-size: 80%; text-align: center; margin-bottom:10px;"><img src="images/march-workshop-default.jpg" alt="March 2014 Workshop" width=254 height=250 style="color: #008000;margin-left:15px;" border=3 />Click here for additional images.</div></a>
+  <a href="images/march-workshop-2.jpg" rel="lightbox[ATP3]" title="From March 2014: UTEX Microalgal Training Workshop held on the University of Texas at Austin Campus in Austin, TX"></a>
+  <a href="images/march-workshop-3.jpg" rel="lightbox[ATP3]" title="From March 2014: UTEX Microalgal Training Workshop held on the University of Texas at Austin Campus in Austin, TX"></a>
+  <a href="images/march-workshop-4.jpg" rel="lightbox[ATP3]" title="From March 2014: UTEX Microalgal Training Workshop held on the University of Texas at Austin Campus in Austin, TX"></a>
+   <a href="images/march-workshop-5.jpg" rel="lightbox[ATP3]" title="From March 2014: UTEX Microalgal Training Workshop held on the University of Texas at Austin Campus in Austin, TX"></a>
+    <a href="images/march-workshop-6.jpg" rel="lightbox[ATP3]" title="From March 2014: UTEX Microalgal Training Workshop held on the University of Texas at Austin Campus in Austin, TX"></a>
+  <font size="2" face="Arial"><p style="margin-top: 0; margin-bottom: 0" align="justify"><br>	     
+  
+  UTEX presents 
+  training 
+   workshops for individuals interested in learning principles and practices of 
+   growing and managing algal cultures.&nbsp; The workshop is designed to enhance 
+   the knowledge of those who are already familiar with algae, and provide 
+   an introduction to algal culture management for those with no prior 
+   experience.&nbsp; Many topics are of direct relevance for those who are 
+   interested in commercialization of algae.</p>
+  
+  <p align="justify">
+   Workshops feature presentations and demonstrations, as well as opportunities 
+   for hands-on microscopic manipulations and training in common laboratory 
+  techniques.&nbsp; Participants are encouraged to 
+   bring algal samples that they wish to microscopically observe and/or 
+   identify.&nbsp; Workshops are informal; participants are encouraged to ask 
+   questions, share information with the group, and network.</p>
+  <p align="justify"> 
+  A certificate of completion will be sent electronically via email 
+  (paper copy available upon request), and a free UTEX culture, based on 
+  availability of strains, are offered to each participant.</p>
+
+  <p style="margin-bottom: 0"><br><b>Location of next workshop:</b></p><P CLASS="indented" style="margin-top: 0; margin-bottom: 0">
+  Biological Laboratories Building (BIO LABS)</p>
+  <P CLASS="indented" style="margin-top: 0; margin-bottom: 0">
+  Room 221</p>
+  <P CLASS="indented" style="margin-top: 0; margin-bottom: 0">
+  205 West 24th Street</p>
+  <P CLASS="indented" style="margin-top: 0; margin-bottom: 0">
+  The University of Texas at Austin</p>
+  <P CLASS="indented" style="margin-top: 0; margin-bottom: 0">
+  Austin, TX 78712</p>
+  <a href="https://mapsengine.google.com/map/edit?mid=znADX4EJVEuA.kUsiWtlRe_GA" target="_blank">
+  <img src="images/map.jpg" alt="Google Maps-UT Austin" width="54" height="32.4" style="float:lef;margin-top:3; margin-bottom:3; margin-left:9"/></a><br>
+  <br>
+  
+  
+    
+   <p style="margin-top: 0; margin-bottom: 0">
+   <b>Dates of the next workshops ** :</b></p>
+  <p style="margin-top: 0; " class="auto-style7">
+  <font size="2" face="Arial">
+  <em>(Click on dates for costs and additional information)</em></font></p>
+   
+
+
+  <dl class="auto-style4">
+  		<div onclick="openClose('a4')" style="cursor:hand; curosr:pointer"><span class="indented">
+			<strong>July 24 - 25, 2014</strong>&nbsp; </span>
+			<img alt="Click to expand/contract additional description." class="auto-style2" height="15" src="images/bullet_toggle_plus.png" width="15"></div>
+  	</dt>
+  		<div id="a4" class="texter" align="justify">
+  			<dd><strong>Cost:</strong> $600 USD</dd>
+  			<dd><strong>Description:</strong> <u>Managing Microalgal Cultures</u> - 
+			This 2-day workshop is designed to enhance the knowledge of those who are already familiar with algae, and provide an introduction to algal culture management for those with no prior experience.  Many topics are of direct relevance for those who are interested in commercialization of algae.</dd>
+		</div>
+  </dl>
+			
+
+
+  <dl class="auto-style4">
+  		<div onclick="openClose('a5')" style="cursor:hand; curosr:pointer"><span class="indented">
+			<strong>September 18 - 19, 2014</strong>&nbsp; </span>
+			<img alt="Click to expand/contract additional description." class="auto-style2" height="15" src="images/bullet_toggle_plus.png" width="15"></div>
+  	</dt>
+  		<div id="a5" class="texter" align="justify">
+  			<dd><strong>Cost:</strong> $600 USD</dd>
+  			<dd><strong>Description:</strong> <u>Managing Microalgal Cultures</u> - 
+			This 2-day workshop is designed to enhance the knowledge of those who are already familiar with algae, and provide an introduction to algal culture management for those with no prior experience.  Many topics are of direct relevance for those who are interested in commercialization of algae.</dd>
+		</div>
+  </dl>
+			
+
+
+  <P CLASS="auto-style9">
+  &nbsp;</p>
+  <P CLASS="auto-style10">
+  <strong><em>**Customized training workshops can be arranged for groups of 4 or 
+  more.&nbsp; Please inquire at <a href="mailto:utalgae@uts.cc.utexas.edu">
+  utalgae@uts.cc.utexas.edu</a>.<br></em></strong></p>
+  
+  
+    <p style="margin-top: 0; margin-bottom: 0">
+    &nbsp;<p style="margin-top: 0; margin-bottom: 0">
+   &nbsp;<p style="margin-top: 0; margin-bottom: 0">
+   <b>Enrollment:
+   </b><P CLASS="auto-style5" style="margin-top: 0; margin-bottom: 0" align="justify">
+  <font size="2" face="Arial">
+   All workshop fees are due at the time of registration. A 50% refund will be provided for cancellations 
+  made within 5 business days prior to the start of the workshop. The enrollment of each workshop is restricted to 
+  10 individuals.&nbsp; Please contact the UTEX Business Manager, Nick Davis, 
+  via&nbsp;<a href="mailto:utalgae@uts.cc.utexas.edu">email</a>&nbsp;or by phone: 
+  512-471-4019, to inquire about availability, cancellations, or special 
+  requests. Participants are responsible for their own transportation and living expenses. UTEX personnel may be able to assist in 
+  finding a conveniently located hotel.</font></P>
+  <p style="line-height: 150%; margin-top: 0; margin-bottom: 1px">
+  <b>
+  <br><br>
+   Instructors:<br>
+   </b>Trained phycologists will conduct each workshop. These include:
+  </p>
+  <p style="line-height: 150%; margin-top: 0; margin-bottom: 1px"> </P> 
+  <p style="line-height: 150%; margin-top: 0; margin-bottom: 1px"> </P> 
+  <p style="line-height: 150%; margin-top: 0; margin-bottom: 1px"> </p>
+  <P CLASS="indented" style="line-height: 150%; margin-top: 1px; margin-bottom: 1px">Dr. Jerry Brand, Director, Culture Collection of Algae and Professor of Biology</P>
+  <p style="line-height: 150%; margin-top: 1px; margin-bottom: 0"></p>
+  <P CLASS="indented" style="line-height: 150%; margin-top: 1px; margin-bottom: 0">Dr. James Dawson, Phycologist and Professor at Pittsburg State University, Kansas</P>
+  <p style="line-height: 150%; margin-top: 1px; margin-bottom: 0"></p>
+  <P CLASS="indented" style="line-height: 150%; margin-top: 1px; margin-bottom: 0">Dr. David Nobles, Curator, Culture Collection of Algae</P>
+  <p style="line-height: 150%; margin-top: 1px; margin-bottom: 0"></p>
+  <P CLASS="indented" style="line-height: 150%; margin-top: 1px; margin-bottom: 0">
+  Dr. Schonna Manning, Phycologist and Analytical Biochemist, Culture Collection of Algae</P>
+  <P CLASS="indented" style="line-height: 150%; margin-top: 1px; margin-bottom: 0">&nbsp;</P></p>
+
+  <p style="margin-top: 0; margin-bottom: 0">
+   <font size="2" face="Arial"><b>Schedule:</b><br>
+
+            </font>
+
+           
+   <p class="indented" style="margin-top:0">Topics vary among workshops. The schedule for the <b>July 
+   24-25, 2014</b> workshop is as follows: </p>
+   <p style="margin-top: 0; margin-bottom: 0">
+   <br>
+   <table width=600 class="auto-style12" align="center">
+   <tr>
+   <td style="width: 78px" class="auto-style3">
+   <p style="margin-top: 0; margin-bottom: 0"><font size="2">Thursday</font></td>
+   <td align=left>
+   <p style="margin-top: 0; margin-bottom: 0"><b>&nbsp;<font size="2">&nbsp; 
+    8:00 am - 4:30 pm</font></b></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">8:00-8:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Check In and Refreshments</font></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">8:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Introduction</font></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">9:00</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Tour of UTEX</font></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">10:00</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; The Diversity, Nutrition, and Ecology of Algae</font></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">11:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Lunch</font></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">1:00</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Structural Features and Chemical Components of Algal Cells</font></td></tr>
+   <tr>
+   <td style="height: 20px; width: 78px;" class="auto-style1"><font size="2">2:00</font></td>
+   <td align=left style="height: 20px"><font size="2">&nbsp;&nbsp; Use of the Optical Microscope</font></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">3:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Recognition and Elimination of Contaminants</font></td></tr>
+   <tr>
+   <td style="width: 78px" class="auto-style1"><font size="2">4:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Activities conclude</font></td></tr>
+   </table><br>
+   <table width=600 class="auto-style12" align="center">   <tr>
+   <td align=right style="width: 74px; height: 23px;">
+   <p style="margin-top: 0; margin-bottom: 0"><b><font size="2">Friday</font></b></td>
+   <td align=left style="height: 23px">
+   <p style="margin-top: 0; margin-bottom: 0"><b>&nbsp;<font size="2">&nbsp; 
+    8:00 am - 4:30 pm</font></b></td></tr>
+   <tr>
+   <td align=right style="width: 74px"><font size="2">8:00-8:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Refreshments</font></td></tr>
+   <tr>
+   <td align=right style="width: 74px"><font size="2">8:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Measuring Culture Densities and Growth Rates</font></td></tr>
+   <tr>
+   <td align=right style="width: 74px"><font size="2">9:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Practical Laboratory Techniques 1:
+   </font></td></tr>
+    <tr>
+   <td align=right style="width: 74px"><font size="2"></font></td>
+   <td align=left><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cell counts</font></td></tr>
+  <tr>
+   <td align=right style="width: 74px"><font size="2"></font></td>
+   <td align=left><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - optical density</font></td></tr>
+
+   <tr>
+   <td align=right style="width: 74px"><font size="2">10:45</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Tour of WEL greenhouse</font></td></tr>
+   <tr>
+   <td align=right style="width: 74px"><font size="2">11:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Lunch and Discussion of Scaling-Up Cultures</font></td></tr>
+   <tr>
+   <td align=right style="width: 74px"><font size="2">12:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Introduction to Lipid Analysis</font></td></tr>
+   <tr>
+   <td align=right style="width: 74px"><font size="2">1:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Practical Laboratory Techniques 2:</font></td></tr>
+      <tr>
+   <td align=right style="width: 74px">&nbsp;</td>
+   <td align=left><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - TLC rotation</font></td></tr>
+      <tr>
+   <td align=right style="width: 74px">&nbsp;</td>
+   <td align=left><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cryo demo and fluorescence microscopy rotation</font></td></tr>
+         <tr>
+   <td align=right style="width: 74px">&nbsp;</td>
+   <td align=left><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - data analysis</font></td></tr>
+   <tr>
+   <td align=right style="width: 74px"><font size="2">4:30</font></td>
+   <td align=left><font size="2">&nbsp;&nbsp; Evaluations and conclusion of activities</font></td></tr>
+   
+
+      </table>
+  <p style="margin-top: 0; margin-bottom: 0"><b>
+   <br><br>
+   Contact information:</p>
+   </b>
+  <P CLASS="indented" style="margin-top: 0; margin-bottom: 0">
+	Those interested in participation may contact Nick Davis
+	<a href="mailto:utalgae@uts.cc.utexas.edu">via e-mail</a> or phone (512-471-4019).</P>
+   <b>
+   <p style="margin-top: 0; margin-bottom: 0">
+   <br><br>
+    Method of payment:</p>
+   </b>
+  <P CLASS="indented" style="margin-top: 0; margin-bottom: 0">
+   <font size="2" face="Arial">
+   Payments by credit card should be 
+   made through the UTEX web site, using the secure 
+   <a href="http://utdirect.utexas.edu/txshop/list.WBX?component=0&amp;application_name=BSALGAES&amp;cat_seq_chosen=06&amp;subcategory_seq_chosen=000" target="_blank">TX Shop 
+   System</a>.
+    
+       </td>
+
+
+
+
+<td width="50"></td>
+</tr>
+</table> 
+</center>
+
+
+            </tr>
+        </table>
+
+
+
+
+
+
+
+<!--------------------END MAIN CONTENT-------------------------->
+
+  </td>
+</tr>
+
+
+<tr align="center">
+  <td colspan = 3>
+	<hr width=960 size=2>
+<!--#include virtual="includes/footer.html"-->
+  </td>
+</tr>
+
+
+</table>	

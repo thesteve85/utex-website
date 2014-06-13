@@ -81,22 +81,6 @@ else { document.getElementById(theID).style.display = "block" } }
 table.curvedEdges { border:5px solid green;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
 table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted gray;padding:5px; }
 
-.auto-style1 {
-	text-align: center;
-}
-
-.auto-style2 {
-	border: 0 solid #FFFFFF;
-}
-
-.auto-style3 {
-	border-style: solid;
-	border-width: 0;
-}
-.auto-style4 {
-	border-width: 0px;
-}
-
 </style>
 
 </head>
@@ -135,7 +119,7 @@ table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted gray;paddi
 		</td>
                 <td width="150" valign="top" ALIGN="RIGHT"> <font color="CC6600"><b>NON-POSTAL DELIVERIES</b></font><br></td>
                 <td width="10">&nbsp;</td>
-                <td style="width: 533px" colspan="2">
+                <td style="width: 533px">
                  UTEX Culture Collection of Algae<br>
                   205 W. 24th St., Biological Labs 218<br>
                   The University of Texas at Austin<br>
@@ -155,71 +139,75 @@ table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted gray;paddi
 		</td>
 
                 <td></td>
-                <td style="width: 533px" colspan="2">
+                <td style="width: 533px">
                   (512) 471-0354<br>&nbsp;
 		</td>
             </tr>
+	    <TR>
+		<TD VALIGN="bottom" ALIGN="LEFT" COLSPAN="3">
+                   <b><font color="CC6600">
+             INQUIRIES
+                  REGARDING </font></b>
+		</TD>
+	    </tr>
                                     <tr>
-                <td width="150" valign="top" ALIGN="RIGHT"> <b><font color="CC6600">
-             E-Mail </font></b>
-</td>
+                <td width="150" valign="top" ALIGN="RIGHT">Ordering</td>
                 <td width="10">&nbsp;</td>
-                <td style="width: 533px"><a href="mailto:utalgae@uts.cc.utexas.edu">info.utex@utexas.edu</td>
+                <td style="width: 533px"><a href="mailto:utalgae@uts.cc.utexas.edu">Nick 
+				Davis</a> Business Manager</td>
                 <td width="150" valign="top" ALIGN="RIGHT">
-						 <b><font color="CC6600">
-             Social Media</font></b>
-										</td>
+                         Administration & Accessioning	</td>
                 						<td></td>
-                <td valign="top" style="width: 533px" colspan="2">
+                <td valign="top" style="width: 533px">
+                   <a href="mailto:dnobles@mail.utexas.edu">Dr. David Nobles, Jr</a> Curator
+		</td>
+            </tr>
+           
+            
+                                    <tr>
+                <td width="150" valign="top" ALIGN="RIGHT">&nbsp;</td>
+                <td width="10">&nbsp;</td>
+                <td style="width: 533px">&nbsp;</td>
+                <td width="150" valign="top" ALIGN="RIGHT">
+                         &nbsp;</td>
+                						<td>&nbsp;</td>
+                <td valign="top" style="width: 533px">
                    &nbsp;</td>
             </tr>
            
             
                                     <tr>
-                <td width="150" valign="top" ALIGN="RIGHT"> &nbsp;</td>
+                <td width="150" valign="top" ALIGN="RIGHT">Culture Maintenance &amp; 
+				Media</td>
                 <td width="10">&nbsp;</td>
-                <td style="width: 533px">&nbsp;</td>
+                <td style="width: 533px"><a href="mailto:stephen.o.pena@gmail.com">Stephen Peña</a> Culture Collection Manager
+				<br><a href="mailto:ana.aguilar@utexas.edu">Ana Aguilar</a> 
+				Facility Manager</td>
                 <td width="150" valign="top" ALIGN="RIGHT">
-						 &nbsp;</td>
+                         &nbsp;</td>
                 						<td>&nbsp;</td>
-                <td valign="top" style="width: 100px" class="auto-style1">
-                   <a href="https://www.facebook.com/UTEXalgae">
-                   <img alt="UTEX Facebook Profile" height="35" src="images/facebook.png" width="35" align="center" class="auto-style4"></a></td>
-                <td style="width: 433" class="auto-style2">
-                   <a href="https://www.facebook.com/UTEXalgae">Facebook</a></td>
+                <td style="width: 533px"><a href="mailto:jbrand@mail.utexas.edu">Dr. Jerry Brand</a> Director
+		</td>
             </tr>
            
             
-                                    <tr>
-                <td width="150" valign="top" ALIGN="RIGHT"> &nbsp;</td>
+                        <tr>
+                <td width="150" valign="top" ALIGN="RIGHT">&nbsp;</td>
                 <td width="10">&nbsp;</td>
-                <td style="width: 533px">&nbsp;</td>
-                <td width="150" valign="top" ALIGN="RIGHT">
-						 &nbsp;</td>
-                						<td>&nbsp;</td>
-                <td valign="top" style="width: 100px" class="auto-style1">
-                   <a href="https://twitter.com/UTEX_CC">
-                   <img alt="UTEX Twitter Profile" height="35" src="images/1402512522_twitter.png" width="35" align="center" class="auto-style4"></a></td>
-                <td style="width: 433" class="auto-style3">
-                   <a href="https://twitter.com/UTEX_CC">Twitter</a></td>
+                <td style="width: 533px">&nbsp;
+		</td>
             </tr>
-           
             
-                                    <tr>
-                <td width="150" valign="top" ALIGN="RIGHT"> &nbsp;</td>
+
+
+            <tr>
+                <td width="150" valign="top" ALIGN="RIGHT">&nbsp;</td>
                 <td width="10">&nbsp;</td>
-                <td style="width: 533px">&nbsp;</td>
-                <td width="150" valign="top" ALIGN="RIGHT">
-						 &nbsp;</td>
-                						<td>&nbsp;</td>
-                <td valign="top" style="width: 100px" class="auto-style1">
-                   <img alt="UTEX LinkedIn Profile" height="35" src="images/linkedin-512.png" width="35" align="center"></td>
-                <td style="width: 433" class="auto-style3">
-                   LinkedIn</td>
-            </tr>
-           
-            
-                                    </table>
+                <td style="width: 533px">&nbsp;
+		</td>
+	    </TR>
+                        
+        </table>
 
   <hr><br>
 

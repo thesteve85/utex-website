@@ -172,8 +172,7 @@ End Sub
 	 
   	  <p style="margin-bottom: 0" class="auto-style11">
 	  <img src='images/algaeicon.png' border=0 width="15" height="15"><font size="2"><b> NAABB Strains Are Now Available Through UTEX</b><br>The National Alliance for Advanced Biofuels and Bioproducts (NAABB), a consortium of universities, research institutions, and companies funded by the US Department of Energy, has made 30 of their best performing strains available to the public through UTEX.  These strains are well characterized for lipid production and growth kinetics.  The strains can be accessed with a Material Transfer Agreement (MTA).  Please contact 
-	  <a href="mailto:dnobles@austin.utexas.edu">Dr. David Nobles, Jr.</a> or 
-	  <a href="mailto:stephen.o.pena@gmail.com">Stephen Pe&ntilde;a</a> for more 
+	  <a href="mailto:info.utex@utexas.edu">UTEX</a> for more 
 	  information about ordering these strains.</font></p><br><hr>
 	  
 	 
@@ -185,11 +184,6 @@ End Sub
 	  <td  style="width:45%; height: 50%" class="curvedEdges"><div class="auto-style5" style="width:100%;" align="center"> 
 		  <font size="2" face="Arial">	 
 	   <table style="width:100%;border-bottom:1px; border-bottom-style:dotted; border-bottom-color:gray;padding:5px" class="auto-style9">
-<tr>
-<td style="width: 35%;border-bottom:1px; border-bottom-style:dotted; border-bottom-color:gray; padding-bottom:0px" class="auto-style14">
-<font face="Arial" size="2">June 4-6 :</font></td><td style="width:60%;border-bottom:1px; border-bottom-style:dotted; border-bottom-color:gray; padding-bottom:0px"><center><a href="workshops1.aspx" title="Biochemistry and Laboratory Analysis of Biomass Composition">
-	<font size="3" face="Arial" class="auto-style15">UTEX Training Workshop</font></a></center></td>
-</tr>
 <tr>
 <td style="width: 35%;border-bottom:1px; border-bottom-style:dotted; border-bottom-color:gray; padding-bottom:0px" class="auto-style14">
 <font face="Arial" size="2">July 24-25 :</font></td><td style="width:60%;border-bottom:1px; border-bottom-style:dotted; border-bottom-color:gray; padding-bottom:0px"><font size="1" face="Arial"><center><a href="workshops1.aspx" title="Managing Microalgal Cultures">
